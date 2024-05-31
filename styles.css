@@ -91,7 +91,7 @@ body, html {
   }
   .recibos{
     margin-bottom: 5px;
-padding: 5px;
+    padding: 5px;
     background-color: rgba(98, 178, 232, 0.3);
     border-radius: 8px;
     display: flex;
@@ -99,6 +99,14 @@ padding: 5px;
     width: 90%;
     margin: 10px auto;
   }
+
+  .recibos:hover{
+    background-color: rgba(98, 178, 232, 0.5);
+    color: black;
+  }
+
+
+
     .contenedor{
         margin: 40px auto;
         width: 90%;
@@ -395,3 +403,7 @@ padding: 4px;
 /*-----------------------------------boton deplegable inicio -----------------------------------------*/
 
 /*-------------------------------------boton desplegable fin-------------------------------------------*/
+
+a{
+    text-decoration: none;
+}
