@@ -243,7 +243,13 @@ cursor: pointer;
     font-size: small;
     cursor: pointer;
     }
-@media only screen and (min-width:300px) and (max-width:480px) {
+@media only screen and (min-width:320px) and (max-width:480px) {
+    .footer{
+        max-width: 80%;
+        margin: auto;
+           }
+
+           
   
 }
 
